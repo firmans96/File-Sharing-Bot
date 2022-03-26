@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>Tentang Bot ini:\n\n • Channel: @{CHANNEL}</b>",
+            text = f"<b>Selamat Datang di Bot Gudang Drakor, Ini adalah Bot Gudang Drakor Tempat Menonton Video Drakor yang Lagi Trend\n\n • Channel: @CrazyLove_KDrama</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
